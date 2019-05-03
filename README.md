@@ -5,8 +5,8 @@ Instagram clone with nodejs prisma react react native
 ## User Stories
 
 - [x] Create account
-- [ ] Request Secret
-- [ ] Confirm Secret (Login)
+- [x] Request Secret
+- [x] Confirm Secret (Login)
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
@@ -23,8 +23,9 @@ Instagram clone with nodejs prisma react react native
 - yarn ( npm )
 - NodeJS
 - GraphQL
-- Prisma (https://app.prisma.io)
+- Prisma (https://app.prisma.io) / 계정필요
 - React
+- sendGrid (https://app.sendgrid.com/) /  계정필요
 
 ## Usage
 
