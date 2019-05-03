@@ -4,7 +4,9 @@ Instagram clone with nodejs prisma react react native
 
 ## User Stories
 
-- [ ] Log in
+- [x] Create account
+- [ ] Request Secret
+- [ ] Confirm Secret (Login)
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
@@ -13,7 +15,6 @@ Instagram clone with nodejs prisma react react native
 - [ ] Follow / Unfollow User
 - [ ] See the full photo
 - [ ] Edit my profile
-- [ ] Create account
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
@@ -37,6 +38,15 @@ npm install -g prisma
 # or
 yarn global add prisma
 ```
+
+`prisma init`을 `git clone` 받아서 또 해야하는지는 확인해봐야됨.
+prisma service 생성시 한번 셋팅으로 끝인지 아닌지 해보고 재작성 필요!
+
+아닐경우 `prisma deploy`, `prisma generate` 로 확인
+
+> `prisma generate`명령어로 생성되는 generated 폴더는 git으로 관리하지 않아서 gitignore에 등록되어 있음
+
+
 
 `package.json` scripts 참조
 
