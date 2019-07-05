@@ -21,7 +21,7 @@ export const sendMail = (email) => {
 
 export const sendSecretMail = (address, secret) => {
     const email = {
-        from: "wisdom@wisgram.com",
+        from: "wisdom@wisdoms.dev",
         to: address,
         subject: "🔑 Login Secret for Wisgram 🔑",
         html: `Hello! Your login secret is <strong>${secret}</strong>. <br/> Copy paste on the app/website to login`
