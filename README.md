@@ -11,9 +11,9 @@ Instagram clone with nodejs prisma react react native
 - [x] Comment on a photo
 - [x] Search by user
 - [x] Search by location
-- [ ] See user profile
-- [ ] Follow / Unfollow User
+- [x] Follow / Unfollow User
 - [ ] See the full photo
+- [ ] See user profile
 - [ ] Edit my profile
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
