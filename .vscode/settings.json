@@ -1,4 +1,10 @@
 {
-    "npm-scripts.showStartNotification": false,
-    "editor.tabSize": 2
+  "npm-scripts.showStartNotification": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.autoFixOnSave": true,
+  "javascript.format.enable": false
 }
