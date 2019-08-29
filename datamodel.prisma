@@ -22,6 +22,8 @@ type Post {
   files: [File!]! @relation(name: "FilesOfPost" onDelete: CASCADE )
   likes: [Like!]! @relation(name: "LikeOfPost" onDelete: CASCADE )
   comments: [Comment!]! @relation(name: "CommentOfPost" onDelete: CASCADE )
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
 }
 
 type Like {
