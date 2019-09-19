@@ -19,10 +19,10 @@ Instagram clone with nodejs prisma react react native
 - [x] Upload a photo
 - [x] Edit the photo (Delete)
 - [x] See the feed
-- [ ] See rooms
-- [ ] See room
-- [ ] Send private Message
-- [ ] Receive Message (Realtime)
+- [x] See rooms
+- [x] See room
+- [x] Send private Message
+- [x] Receive Message (Realtime)
 
 ## Required
 
